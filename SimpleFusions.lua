@@ -299,7 +299,7 @@
         },
         in_pool = function(self, args)
           return false
-        end
+        end,
         discovered = true,
         unlocked = true,
         pos = {x=(k-1)%10,y=math.floor((k-1)/10)},
